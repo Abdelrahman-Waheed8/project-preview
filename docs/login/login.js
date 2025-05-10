@@ -10,7 +10,7 @@ var stored_pass=localStorage.getItem('pass');
 if(user_name.value && user_pass.value){
 if(user_name.value===stored_name && user_pass.value===stored_pass){
 alert('تم تسجيل الدخول بنجاح');
-window.location.href='../home/index.html';
+window.location.href='../index.html';
 }else{
 alert('كلمة المرور غير مطابقة');
 }
